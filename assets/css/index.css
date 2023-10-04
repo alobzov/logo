@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+.first {
+    width: 200px;
+    height: 200px;
+
+    background-color: white;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    transform: rotate(-45deg);
+}
+
+.second {
+    width: 150px;
+    height: 150px;
+
+    background-color: white;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    transform: rotate(-45deg);
+    transform-origin: 66.67% 66.67%;
+}
+
+.third {
+    width: 100px;
+
+    border: 1px solid black;
+
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+    transform: rotate(-45deg);
+    transform-origin: 100% 2750%;
+}
+
+.forth {
+    width: 50px;
+
+    border: 1px solid black;
+
+    position: absolute;
+    top: 150px;
+    left: 100px;
+
+    transform: rotate(-45deg);
+    transform-origin: right top;
+}
+
+.contact {
+    width: 200px;
+    height: 50px;
+
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
